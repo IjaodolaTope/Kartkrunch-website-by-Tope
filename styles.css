@@ -203,6 +203,7 @@ header .srch-dv .contact-itrc .sugg-search{
         margin-left: 0;
         box-shadow: none;
         background-color: white;
+        margin-bottom: 0px !important;
     }
 
     div.scrollcrcl{
@@ -285,12 +286,11 @@ header .srch-dv .contact-itrc .sugg-search{
         text-align: left;
         padding-bottom: 2px;
         background-color: transparent;
-        padding: 8px 2px;
-        padding-bottom: 0;
-
+        padding: 0px 2px 0 2px;
         margin-top: 3px;
         margin-bottom: 3px;
         box-shadow: none;
+        /* border: solid thin black; */
     }
 
   
