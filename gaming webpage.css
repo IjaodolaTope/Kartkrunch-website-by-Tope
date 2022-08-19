@@ -1,0 +1,14 @@
+h1{
+    color: red;
+}
+
+.blue-color{
+    color: blue;
+    font-size: 20pox;
+}
+
+.yellow-color{
+    color: yellow;
+    font-size: 15px;
+    font-weight: 700;
+}
