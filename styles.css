@@ -170,7 +170,7 @@ header .srch-dv .contact-itrc .sugg-search{
     /* width: 0px; */
 }
 
-.sctn2{ align-items: center;  padding: 0;}
+.sctn2{ align-items: center;  padding: 0; box-shadow: none; margin-bottom: 0 !important; } 
 
 .lctn1{display: block;   display: flex; 
      cursor: pointer; align-items: center; justify-content: center;}
@@ -185,7 +185,7 @@ header .srch-dv .contact-itrc .sugg-search{
 .locatn-tt1{
     margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu,Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 15px;}
     
-.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-size: 14px; color: rgb(179, 179, 179); color: lime; 
+.address1{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-size: 14px; color: rgb(179, 179, 179); 
     margin-top: auto; margin-bottom: auto; padding: 1px 0; 
    }
 
@@ -197,7 +197,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 0px;
+        margin-top: 3px !important;
         padding: 0; 
         padding-top: 2%;
         margin-left: 0;
