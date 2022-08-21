@@ -216,6 +216,10 @@ header .srch-dv .contact-itrc .sugg-search{
         padding-top: 0;
         height: 110px;
         padding-bottom: 7px;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: start;
+        transition: 2s;
         /* margin-left: 0; */
     }
 
@@ -225,6 +229,7 @@ header .srch-dv .contact-itrc .sugg-search{
         color: white;
         text-align: center;
         /* border: solid orangered thin; */
+        scroll-snap-align: start;
         border: none;
         padding: 0;    
         width: 280px;
@@ -243,42 +248,8 @@ header .srch-dv .contact-itrc .sugg-search{
         background-color: #777;
     }
 
-    .sectn4{
-        display: flex;
-        justify-content:start;
-        align-items: center;
-        ;
-        padding: 3% 0;
-        padding-bottom: 3%;
-        background-color: white;
-        /* border: solid thin; */ 
+    .section4{
         display: none;
-    }
-    .shfflebtn{
-        background-color: rgb(152, 42, 2);
-        /* border: solid 1px orangered; */
-        display: flex;
-        margin-top: 0 ;
-        margin-left: auto;
-        margin-right: auto;
-        width: 87%;
-        align-items: center;
-        border-radius: 6px;
-        box-shadow: 0.8px 2px 1px 1px rgba(192, 192, 192, 0.445);
-    }
-
-    .sectn4 .shfflebtn img{
-        width: 80px;
-        height: 40px;
-        padding-left: 6%;
-    }
-
-    .sectn4 .shfflebtn p{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 26px;
-        margin-left: 5%;
-        letter-spacing: 3px;
     }
 
     .section5{
@@ -605,10 +576,11 @@ header .srch-dv .contact-itrc .sugg-search{
           padding-top: 0;
           height: 16vh;
           display: none;
+          scroll-behavior: smooth;
     }
 
-    .sectn4{
-        display: none;
+    .section4{
+        display: block;
     }
 
     .section5{
