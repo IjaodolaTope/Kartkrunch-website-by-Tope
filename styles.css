@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     background-color: white;
     /* background-color:  */
@@ -12,17 +14,19 @@ body{
     /* background-color: rgba(192, 192, 192, 0.322); */
 }
 
-a{-webkit-tap-highlight-color: transparent;}
+a{-webkit-tap-highlight-color: transparent; text-decoration: none;}
 
 .disp-nn{display: none;}
 
-li, a, button {
-    font-family: "Montserrat", sans-serif;
+/* li, a  */
+/* button */ 
+/* { */
+    /* font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
-}
+} */
 
 .flex-div{
     display: flex;
@@ -36,7 +40,7 @@ header{
 
 .sctn1{ 
     border-bottom: none;
-    padding: 6px 2%;
+    padding: 4px 2%;
     box-shadow: none;
     width: auto;
     margin:0;
@@ -83,14 +87,14 @@ cursor: pointer;
 }
 
 
-button{
+/* button{
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-}
+} */
 
 button:hover{
     background-color: rgba(0, 136, 169, 0.8);
@@ -197,7 +201,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 3px !important;
+        margin-top: 9px !important;
         padding: 0; 
         padding-top: 0.2%;
         margin-left: 0;
@@ -219,7 +223,7 @@ header .srch-dv .contact-itrc .sugg-search{
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
         scroll-snap-align: start;
-        transition: 2s;
+        transition: 4s;
         /* margin-left: 0; */
     }
 
@@ -237,15 +241,63 @@ header .srch-dv .contact-itrc .sugg-search{
         margin: 0;
         text-decoration: none;
         margin-right: 3px;
-        background-size: 100% 100%;
+        /* background-size: 100% 100%; */
+        background-size: cover;
+        background-repeat: no-repeat;
         background-image: url(kfc\ image.jpg);
         border-radius: 8px;
         margin-bottom: 0px !important;
         margin-left: 0;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
 
-    div.scrollcrcl a :hover{
-        background-color: #777;
+
+    .shuffle-section{
+        border: solid thin;
+        justify-content: left;
+        margin:  0 3.5%;
+    }
+
+    .shuffle-section .mobile-shuffle{
+        align-items:flex-start;
+        padding: 0;
+    }
+
+    .shuffle-section .mobile-shuffle .shuffle{
+        align-items: center;
+        /* padding: 0; */
+    }
+
+    .card1{
+        background-image: url(dodopizzabanner.webp) !important;
+    }
+
+    .card2{
+        background-image: url(kfcburger3.jpg) !important;
+    }
+
+    .card3{
+        background-image: url(kfc\ image.jpg) !important;
+    }
+
+    .card4{
+        background-image: url(gidiburgerbrand.jpg) !important;
+    }
+
+    .card5{
+        background-image: url(gidiburgerbrand.jpg) !important;
+    }
+
+    .card6{
+        background-image: url(gidiburgerbrand.jpg) !important;
+    }
+
+    .card7{
+        background-image: url(gidiburgerbrand.jpg) !important;
+    }
+
+    .card8{
+        background-image: url(gidiburgerbrand.jpg) !important;
     }
 
     .section4{
@@ -285,9 +337,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
 
-    .section5 div div{
-    /* border: solid thin; */
-    }
+    
 
     .section5 div div img{
         height: 40px;
@@ -305,86 +355,6 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
 
-    .section6{
-        justify-content: center;
-        align-items: center;
-        
-        padding: 0;
-        /* background-color: rgba(250, 212, 217, 0.178); */
-        background-color: transparent;
-        display: flex;
-        flex-direction: column;
-    }
-    .section6 .title{
-        text-align: center;
-        width: 100%;
-        /* background-color: rgba(250, 212, 217, 0.178); */
-
-        background-color: red;
-        border-top-left-radius: 9px;
-        border-top-right-radius: 9px;
-        padding: 3.4px 6%;
-        padding-right: 4%;
-        justify-content: space-between;
-        display: flex;
-    }
-
-    .section6 .ttle{
-        display: flex;
-        align-items: center;
-        color: white;
-    
-    }
-
-    .section6 .title .ttle img{
-        height: 30px;
-        width: 30px;
-        margin-right: 8px;
-    }
-
-    .section6 .title .ttle p{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 16px;
-        color: white;
-        font-weight: 600;
-                padding-bottom: 5%;
-
-        /* line-height:  ; */
-        /* display: inline-block; */
-    }
-
-    
-    .section6 .title .ttle span {
-        justify-content: space-between;
-        align-items:baseline;
-        margin-left: 0;
-        
-    }
-
-    .section6 .title .ttle span h5{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 10px;
-        margin-left: 0;
-        padding-left: 0;
-    }
-
-    .section6 .title .filter{
-        cursor: pointer;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        color: white;
-        align-items: center;
-    }
-
-    .section6 .title .filter p{
-        font-family: helvetica;
-        font-size: 14px;
-    }
-
-    .section6{
-        padding: 0;
-    }
 
     
 
@@ -402,33 +372,7 @@ header .srch-dv .contact-itrc .sugg-search{
         /* border: solid thin; */
     }
 
-    .section6 div.scrollcrcl{
-        /* background-color: blue; */
-        overflow: auto;
-        white-space: nowrap;
-        padding-top: 0;
-        height: 15.5vh;
-        padding-bottom: 10px;
-    }
 
-    .section6 div.scrollcrcl a{
-        margin-top: auto;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        /* border: solid orangered thin; */
-        border: none;
-        padding: 0;    
-        width: 280px;
-        height: 98%;
-        margin: 0;
-        text-decoration: none;
-        margin-right: 3px;
-        background-size: 100% 100%;
-        background-image: url(kfc\ image.jpg);
-        border-radius: 8px;
-        margin-bottom: 3px;
-    }
 
     
     
@@ -531,17 +475,17 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .Delvry-link{
         background-color: black;        padding: 6px;        border-radius: 5px;
-        font-size: 11px;       font-weight: bold;
-        margin-right: 10px;         margin-bottom: auto;
+        font-size: 9px;       font-weight: bold;
+        margin-right: 10px;         margin-bottom: auto; margin-top: auto;
         color: white;
     }
 
-    .locatn-tt{ margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px;}
+    .locatn-tt{ margin-right: 10px; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px;}
 
-    .address{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    .address{font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 14px;
     }
 
-    .exd-ltcn{margin-top: auto; margin-bottom: auto;}
+    .exd-ltcn{margin-top: auto; margin-bottom: ; font-size: 18px !important;}
 
     .ct-icon{font-size: 24px; font-weight: 500; color: white; }
 
@@ -561,27 +505,151 @@ header .srch-dv .contact-itrc .sugg-search{
     .sctn2{display: none;}
 
     .sctn3{
-        width: 80%;
-        margin: 0.3% auto;
-        margin-top: 10px;
-        border-radius: 3px;
-        /* padding-left: 0; */
-        /* padding: ; */
-    }
-
-    div.scrollcrcl{
-          /* background-color: blue; */
-          overflow: auto;
-          white-space: nowrap;
-          padding-top: 0;
-          height: 16vh;
-          display: none;
-          scroll-behavior: smooth;
+        display: none;
     }
 
     .section4{
         display: block;
+        margin-top: 0 !important;
+        padding: 0;
+        /* border: solid thin; */
+        width: 80%;
+        margin-top: 10px;
+        box-shadow: none;
     }
+
+    .section4 .container{
+        /* width: 80%; */
+        /* border: solid thin; */
+        height: 250px;
+        width: 46%;
+        overflow: auto;
+        display: flex;
+        margin: 0 0;
+        margin-bottom: 0px;
+        scroll-snap-type: x mandatory;
+        scroll-behavior:    smooth;
+        border-radius: 7px;
+        box-shadow: ;   
+        padding: 0;    
+        /* padding-left: 100px;                                                        ADD BOX SHADOW  */
+    }
+    .section4  ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .section4 .container .food-CARD{
+        width: 680px;
+        /* border: solid thin;  */
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        scroll-snap-align: start;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 1px 1px 2px 4px;
+                                        height: 230px; 
+        border-radius: 10px;       
+        /* justify-content: space-between; */
+    }
+
+    .section4 .container .food-CARD .food-decpt{
+        border:  thin; height: 70px; margin: 0 10px; border:  thin;
+    }
+
+    .section4 .container .food-CARD .food-decpt .food-decpt-logo{
+        border:  green thin; height: 70%; padding-top: 6px; display: flex; justify-content: space-between; align-items: center;
+    }
+
+    
+    .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span1{
+        display: flex; align-items: center;
+    }
+
+    .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span1 .food-decpt-logo-span1-img{
+        width: 30px; height: 30px;
+    }
+
+    .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span1 .food-decpt-logo-span1-name{
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold;
+    }
+
+    .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span2{
+        align-items: center;
+    }
+
+    .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span2 p{
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 400;
+    }
+
+    .section4 .container .food-CARD .other-item{
+        border:  green thin; height: 30%; display: flex; justify-content: space-between; align-items: center;
+    }
+
+    .section4 .container .food-CARD .other-item span .rate{
+        color: rgba(0, 0, 0, 0.719); font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; font-weight: 400; margin-left: 13px;
+    }
+
+    .section4 .container .food-CARD .other-item .span2{
+        display: flex; align-items: center; color: rgb(1, 209, 1);
+    }
+
+    .section4 .container .food-CARD .other-item .span2 .food-cat-offr{
+        font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 500; font-size: 13px;
+    }
+
+    .section4 .container .food-CARD .other-item .span2 .offr-icon{
+        font-size: 16px; margin-left: 3px;
+    }
+
+    .section4 .container .food-CARD .item{
+        display: flex;
+        /* margin: 5px 5px 0 5px; */
+        padding: 68px 0;
+        /* height: 150px; */
+        width: 480px;
+        background: url(scewed\ meat\ banner.jpg);
+        background-size: cover;
+        transition: 6s;
+        cursor: pointer;
+        border-radius: 10px;
+        /* border-bottom: 30px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        /* border: solid thin; */
+    }
+ 
+   .link{
+       color: white;
+       visibility: hidden;
+       /* transition: 1.5s; */
+   } 
+
+   .section4 .container .food-CARD .item .link .a-one{
+       margin-left: 10px;
+       margin-right: 190px;
+       padding-left: 20px;
+   } 
+
+   .section4 .container .food-CARD .item .link .a-back{
+       margin-right: 10px;
+       margin-left: 190px;
+   } 
+
+   .section4 .container .food-CARD .item .link i.material-icons{
+        font-size: 11px;
+        border: solid rgb(73, 73, 73);
+        background-color: rgb(73, 73, 73);
+        border-radius: 30px;
+        padding: 8px;
+        transition: 0.5s;
+    }
+
+    .section4 .container .food-CARD .item .link i.material-icons:hover{
+        border-color: rgb(46, 46, 46);
+        background-color: rgb(70, 70, 70);
+    }
+
+
 
     .section5{
         width: 80%;
@@ -619,9 +687,9 @@ header .srch-dv .contact-itrc .sugg-search{
         /* border: solid thin; */
         padding-bottom: 2px;
         background-color: transparent;
-        padding: 8px 0px;
+        padding: 4px 0px;
         padding-bottom: 0;
-
+        background-color: white !important;
         display: block;
     }
 
@@ -633,7 +701,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: flex;
         overflow: auto;
         width: 92%;
-        padding-bottom: 5px;
+        padding-bottom: 1px;
         /* padding: 0px 0; */
         justify-content: center;
     }
@@ -643,11 +711,11 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .section52 div div img{
-        height: 45px;
-        width: 50px;
+        height: 33px;
+        width: 33px;
         border: solid thin silver;
         border: none;
-        border-radius: 10px;
+        border-radius: 15px;
         margin-right: 10px;
         padding: 4px;
         background-color: white;
