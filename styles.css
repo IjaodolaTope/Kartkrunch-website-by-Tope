@@ -201,7 +201,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .sctn3{
-        margin-top: 9px !important;
+        margin-top: 4px !important;
         padding: 0; 
         padding-top: 0.2%;
         margin-left: 0;
@@ -232,7 +232,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: inline-block;
         color: white;
         text-align: center;
-        /* border: solid orangered thin; */
+        border: solid white thin !important;
         scroll-snap-align: start;
         border: none;
         padding: 0;    
