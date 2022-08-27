@@ -64,7 +64,7 @@ header section{
 }
 
 .side-icon{
-    margin-top: auto; margin-bottom: auto; margin-right: 10px; color: black; font-size: 20px;
+    margin-top: auto; margin-bottom: auto; margin-right: 10px; color: black; font-size: 18px;
 /* border: solid thin silver; */
 cursor: pointer;
     padding: 4px 4px;
@@ -76,7 +76,7 @@ cursor: pointer;
     color: orangered;
     font-family: "Montserrat", sans-serif;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 18px;
     /* font-size: 20px; */
     /* font-size: 6.6vw; */
 }
@@ -120,7 +120,7 @@ header .srch-dv .supp-icon{display: none;}
     justify-content: center;
 }
 
-.sch-icon{margin-top: auto; margin-bottom: auto; margin-right: 10px; color: black; font-size: 20px;
+.sch-icon{margin-top: auto; margin-bottom: auto; margin-right: 10px; color: black; font-size: 18px;
 /* border: solid thin silver; */
     padding: 4px 4px;
         border-radius: 10px;
@@ -149,7 +149,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
 /* .user-link{border: ;} */
 
-.ct-icon{font-size: 24px; font-weight: 500; color: white; }
+.ct-icon{font-size: 22px; font-weight: 500; color: white; }
 
 .ct-link{
     /* border: solid 0.3px blue; */
