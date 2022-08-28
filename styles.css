@@ -177,7 +177,7 @@ header .srch-dv .contact-itrc .sugg-search{
     /* width: 0px; */
 }
 
-.sctn2{ align-items: center;  padding: 0; box-shadow: none; margin-bottom: 0 !important; box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px !important;} 
+.sctn2{ align-items: center;  padding: 0; box-shadow: none; margin-bottom: 0 !important; } 
 
 .lctn1{display: block;   display: flex; 
      cursor: pointer; align-items: center; justify-content: center;}
@@ -256,20 +256,12 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
 
-    .shuffle-section{
-        border: solid thin;
-        justify-content: left;
-        margin:  0 4%;
+    .shuffle-span{
+        display: flex; margin: 13px 3.5%; justify-content: space-between;
     }
 
-    .shuffle-section .mobile-shuffle{
-        align-items:flex-start;
-        padding: 0;
-    }
-
-    .shuffle-section .mobile-shuffle .shuffle{
-        align-items: center;
-        /* padding: 0; */
+    .shuffle-span .shuffle-cont{
+        background-color: rgba(7, 128, 7, 0.3); width: 64%; border: none black; border-radius: 24px;  height: 41px; align-items: center; display: flex; justify-content: space-between; padding: 6px 4%; box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
     }
 
     .card1{
