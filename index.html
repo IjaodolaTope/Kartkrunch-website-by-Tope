@@ -18,7 +18,7 @@
 <body>
     <header>
         <section class="sctn1">
-            <i class="material-icons side-icon" style="border: none;">menu</i>
+            <i class="material-icons side-icon" id="side-icon" style="border: none;">menu</i>
       
 
             <h2 class="logo">Kart<span>k</span>runch</h2> 
@@ -132,9 +132,9 @@
         </section>
 
         <span style="display: flex; margin: 13px 3.5%; justify-content: space-between;">
-        <a href="#" style="background-color: rgba(6, 161, 6, 0.3); width: 64%; border: none black; border-radius: 24px;  height: 41px; align-items: center; display: flex; justify-content: space-between; padding: 6px 4%;box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;">
-                <p style="color: rgb(240, 238, 238); border: solid 2.3px rgba(255, 255, 255, 0.247); margin-top: 0px; padding: 2px 6px 0px 6px ; border-radius: 18px; background-color: rgba(2, 173, 2, 0.4); font-weight: bold; font-size: 14px; font-family: 'Poppins', sans-serif; ">Shuffle</p>
-                <img src="shuffle-arrows.png" alt="" style="width: 40px; height: 28px; border:  thin; padding: 0 4px 0 4px;  border-radius: 6px; background-color: rgba(2, 173, 2, 0.4); border: solid 2.3px rgba(255, 255, 255, 0.247);">
+        <a href="#" style="background-color: rgba(7, 128, 7, 0.3); width: 64%; border: none black; border-radius: 24px;  height: 41px; align-items: center; display: flex; justify-content: space-between; padding: 6px 4%;box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;">
+                <p style="color: rgb(240, 238, 238); border: solid 2.3px rgba(7, 128, 7, 0.247); margin-top: 0px; padding: 2px 6px 0px 6px ; border-radius: 18px; background-color: rgba(4, 119, 4, 0.4); font-weight: bold; font-size: 14px; font-family: 'Poppins', sans-serif; ">Shuffle</p>
+                <img src="shuffle-arrows.png" alt="" style="width: 40px; height: 28px; border:  thin; padding: 0 4px 0 4px;  border-radius: 6px; background-color: rgba(4, 119, 4, 0.4); border: solid 2.3px rgba(255, 255, 255, 0.247);">
         </a>
         <a href="#" style="border: solid thin; width: 20%; height: 30px;"></a>
     </span>
@@ -284,6 +284,25 @@ function invisibleCarouIcons(){
     for(let i = 0; i < collection.length; i++){
     collection[i].style.visibility ="hidden";} 
 }
+
+const sideOut = setTimeout(sideoutFunction, 1000);
+
+    function sideoutFunction(){
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "rgb(255, 165, 0, 0.3)";}, 1000);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "white";}, 1300);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "rgb(255, 165, 0, 0.3)";}, 1600);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "white";}, 1900);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "rgb(255, 165, 0, 0.3)";}, 2100);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "white";}, 2400);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "rgb(255, 165, 0, 0.3)";}, 2700);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "white";},3000);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "rgb(255, 165, 0, 0.3)";}, 3500);;
+        setTimeout(function(){document.getElementById("side-icon").style.backgroundColor = "white";}, 5000);;
+
+    }
+
+    // sideoutFunction();
+
     </script>
 </body>
 </html>
