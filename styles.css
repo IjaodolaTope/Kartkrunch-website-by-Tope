@@ -403,7 +403,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .section6 .product-holder-1 .top .span1{display: flex; border: ; align-items: center;} .section6 .product-holder-1 .top .span1 p{font-weight: 500;} .section6 .product-holder-1 .top .span1 img{height: 30px; width: 30px; margin-left: 10px; border:  thin; margin-top: -3px;}
 
-    .section6 .product-holder-1 .top .span2{display: flex;} .section6 .product-holder-1 .top .span2 p{} .section6 .product-holder-1 .top .span2 i{}  
+    .section6 .product-holder-1 .top .span2{display: flex; align-items: center; margin-bottom: -1px;} .section6 .product-holder-1 .top .span2 p{} .section6 .product-holder-1 .top .span2 i{}  
     
     .middle{
         display: flex;
@@ -481,13 +481,15 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .product-link .product-descrpt .product-currency .product-offer{
         position: relative;
+        margin-left: 0.3px;
         bottom: 100px;
         right: 60px;
         color: white;
-        padding-top: 0.3px;
+        padding-top: 1.5px;
+        padding-bottom: 2px;
         padding-left: 4px;
         padding-right: 3px;
-        width: 40px;
+        width: 50px;
         /* border: solid thin; */
         border-radius: 4px;
         background-color: orangered;
@@ -495,12 +497,12 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .product-link .product-descrpt .product-currency .product-offer p{
-        font-size: 13.3px;
+        font-size: 15px;
         font-weight: 500;
     }
 
     .product-link .product-descrpt .product-currency .product-offer i{
-        font-size: 11px;
+        font-size: 10px;
         /* font-weight: 500; */
         margin-top: auto;
         margin-bottom: auto;
@@ -508,12 +510,12 @@ header .srch-dv .contact-itrc .sugg-search{
         /* border: solid thin; */
         /* border: solid 2px; */
         border-radius: 50%;
-        padding: 1.58px 1px 1px 1px;
+        padding: 1.58px 1.3px 1px 1px;
         background-color: red;
         /* width: 10px; */
         position: relative;
-        left: 0px;
-        bottom: 14px;
+        left: 1px;
+        bottom: 12.5px;
     }
 
 
