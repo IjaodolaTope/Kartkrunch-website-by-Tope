@@ -476,24 +476,46 @@ header .srch-dv .contact-itrc .sugg-search{
         margin-left: 5px;
         /* border: solid thin; */
         align-items: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .product-link .product-descrpt .product-currency .product-offer{
         color: white;
-        padding: 0.3px 5px;
+        padding-top: 0.3px;
+        padding-left: 4px;
+        padding-right: 3px;
+        width: 40px;
         /* border: solid thin; */
         border-radius: 4px;
         background-color: orangered;
+        display: flex;
     }
 
     .product-link .product-descrpt .product-currency .product-offer p{
-        font-size: 13px;
+        font-size: 13.3px;
         font-weight: 500;
     }
 
+    .product-link .product-descrpt .product-currency .product-offer i{
+        font-size: 11px;
+        /* font-weight: 500; */
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: -4px;
+        border: solid thin;
+        /* border: solid 2px; */
+        border-radius: 50%;
+        padding: 1.54px 1px 2.5px 1px;
+        background-color: red;
+        /* width: 10px; */
+        position: relative;
+        left: 0px;
+        bottom: 14px;
+    }
+
+
     .product-link .product-descrpt .product-currency .product-price{
-        margin-left: 2px;
+        margin-left: 4px;
         font-size: 17px;
         font-weight: 500;
         color: black;
