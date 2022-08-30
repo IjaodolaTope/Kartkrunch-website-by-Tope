@@ -44,10 +44,11 @@ header{
     box-shadow: none;
     width: auto;
     margin:0;
+    display: flex;
 }
 
 header section{
-    display: flex;
+    /* display: flex; */
     justify-content: right;
     align-items: center;
     padding: 10px 3.5% 10px 0%;
@@ -257,11 +258,23 @@ header .srch-dv .contact-itrc .sugg-search{
 
 
     .shuffle-span{
-        display: flex; margin: 13px 3.5%; justify-content: space-between;
+        display: flex; margin: 13px 3.5%; justify-content: space-between; border: solid 2.3px rgba(255, 255, 255, 0.247);
     }
 
     .shuffle-span .shuffle-cont{
         background-color: rgba(7, 128, 7, 0.3); width: 64%; border: none black; border-radius: 24px;  height: 41px; align-items: center; display: flex; justify-content: space-between; padding: 6px 4%; box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
+    }
+
+    .shuffle-span .shuffle-cont p{
+        color: rgb(240, 238, 238); border: solid 2.3px rgba(255, 255, 255, 0.247); margin-top: 0px; padding: 2px 6px 0px 6px ; border-radius: 18px; background-color: rgba(4, 119, 4, 0.4); font-weight: bold; font-size: 14px; font-family: 'Poppins', sans-serif; 
+    }
+
+    .shuffle-span .shuffle-cont img{
+        width: 43px; height: 27px; border:  thin; padding: 0 4px 0 4px;  border-radius: 6px; background-color: rgba(4, 119, 4, 0.4); border: solid 2.3px rgba(255, 255, 255, 0.247);
+    }
+
+    .cat-span{
+        border:  thin; width: 32%; height: 40px; align-items: center;  display: flex; justify-content: center; padding: 0 0; border-radius: 2px; box-shadow: 2px 2px 2px 2px silver; box-shadow: rgb(0 0 0 / 6%) 0px 3px 6px; border-radius: 10px;
     }
 
     .card1{
@@ -297,9 +310,7 @@ header .srch-dv .contact-itrc .sugg-search{
         background-image: url(gidiburgerbrand.jpg) !important;
     }
 
-    .section4{
-        display: none;
-    }
+
 
     .section5{
         justify-content: center;
@@ -370,12 +381,80 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
 
+    /* .section4-dv{display: none; border: solid; height: 0px;}
+    .container2{display: none;}
 
+    .section4{
+        display: none;
+    } */
+
+    .cari{
+        display: none;
+    }
     
-    
+    .scroll-prdt{
+        display: flex;
+        overflow: auto;
+        border: solid thin green; 
+        height: 90%;
+        padding-top: 3px;
+    }
 
+    .scroll-prdt2{
+        
+    }
 
+    .scroll-prdt2 .scroll-prdt3{
+        height: 180px;
+        width: 160px; 
+        border: solid green thin; 
+        margin-left: 10px;
+        border-radius: 10px;
+    }
 
+    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-img{
+        margin: 3px auto 0px auto;
+        width: 95%;
+        /* border: solid thin; */
+    }
+
+    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-img img{
+        border-radius: 8px;
+        height: 80px;
+        width: 100%;
+    }
+
+    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company{
+        /* border: solid thin; */
+        justify-content: space-between;
+        display: flex;
+        height: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-img{
+        /* margin: 0 3px 0 3px; */
+    }
+
+    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-img img{
+        height: 23px;
+        width: 23px;
+        /* border: solid thin; */
+        border-radius: 3px;
+    }
+
+    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-name{
+        margin-left: 5px;
+        /* border: solid thin; */
+    }
+
+    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-name p{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /* font-size: 17px; */
+        color: black;
+        font-weight: bold;
+    }
 
 
 
@@ -505,21 +584,39 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
 
+    .shuffle-span{
+        display: none;
+    }
+
+    .carou-span{
+
+    }
+
+    .carou-cont{
+        background-color: rgba(7, 128, 7, 0.3); margin-left: 5px; width: 100%; border: none black; border-radius: 8px;  height: 40px; align-items: center; display: flex; 
+        justify-content: space-between; padding: 6px 4%; ;
+    }
+
+    /* .section4-dv{display: block;} */
+    /* .container2{display: block;} */
+
     .section4{
-        display: block;
-        margin-top: 0 !important;
+        /* display: block; */
         padding: 0;
         /* border: solid thin; */
-        width: 80%;
+        width: 54%;
         margin-top: 10px;
         box-shadow: none;
+        margin: 0 !important;
+        /* margin: 0 5% 0 7%!important; */
     }
 
     .section4 .container{
         /* width: 80%; */
         /* border: solid thin; */
+        margin-top: 5px !important;
         height: 250px;
-        width: 46%;
+        width: 100%;
         overflow: auto;
         display: flex;
         margin: 0 0;
@@ -537,23 +634,24 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .section4 .container .food-CARD{
         width: 680px;
-        /* border: solid thin;  */
+        height: 210px; 
+        border:  thin; 
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         scroll-snap-align: start;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 1px 1px 2px 4px;
-                                        height: 230px; 
+        
         border-radius: 10px;       
         /* justify-content: space-between; */
     }
 
     .section4 .container .food-CARD .food-decpt{
-        border:  thin; height: 70px; margin: 0 10px; border:  thin;
+        border:  thin; height: 60px; margin: 0 8px;
     }
 
     .section4 .container .food-CARD .food-decpt .food-decpt-logo{
-        border:  green thin; height: 70%; padding-top: 6px; display: flex; justify-content: space-between; align-items: center;
+        border:   thin; height: 60%; padding-top: 0px; display: flex; justify-content: space-between; align-items: center;
     }
 
     
@@ -562,11 +660,11 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span1 .food-decpt-logo-span1-img{
-        width: 30px; height: 30px;
+        width: 25px; height: 25px;
     }
 
     .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span1 .food-decpt-logo-span1-name{
-        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; margin-left: 5px; font-size: 16px;
     }
 
     .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span2{
@@ -574,7 +672,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .section4 .container .food-CARD .food-decpt .food-decpt-logo .food-decpt-logo-span2 p{
-        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 400;
+        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 400; font-size: 14px;
     }
 
     .section4 .container .food-CARD .other-item{
@@ -585,15 +683,16 @@ header .srch-dv .contact-itrc .sugg-search{
         color: rgba(0, 0, 0, 0.719); font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 15px; font-weight: 400; margin-left: 13px;
     }
 
-    .section4 .container .food-CARD .other-item .span2{
+    .section4 .container .food-CARD  .span2{
         display: flex; align-items: center; color: rgb(1, 209, 1);
     }
+    
 
-    .section4 .container .food-CARD .other-item .span2 .food-cat-offr{
+    .section4 .container .food-CARD .span2 .food-cat-offr{
         font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 500; font-size: 13px;
     }
 
-    .section4 .container .food-CARD .other-item .span2 .offr-icon{
+    .section4 .container .food-CARD  .span2 .offr-icon{
         font-size: 16px; margin-left: 3px;
     }
 
@@ -609,9 +708,9 @@ header .srch-dv .contact-itrc .sugg-search{
         cursor: pointer;
         border-radius: 10px;
         /* border-bottom: 30px; */
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 10px;
+        margin-left: 6px;
+        margin-right: 6px;
+        margin-top: 4px;
         /* border: solid thin; */
     }
  
@@ -719,57 +818,25 @@ header .srch-dv .contact-itrc .sugg-search{
         cursor: pointer;
     }
 
-    .section6{
-        justify-content: center;
-        align-items: center;
-        
-        padding: 0;
-        /* background-color: rgba(250, 212, 217, 0.178); */
-        background-color: transparent;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .section6 .title{
-        text-align: center;
-        width: 100%;
-        /* background-color: rgba(250, 212, 217, 0.178); */
+    /* .container2 .shuffle-container .shuffle-span{
+        display: flex; margin: 13px 3.5%; justify-content: space-between; border: solid 2.3px rgba(255, 255, 255, 0.247);
+    } */
 
-        background-color: red;
-        border-top-left-radius: 9px;
-        border-top-right-radius: 9px;
-        padding: 3.4px 6%;
-        padding-right: 4%;
-        justify-content: space-between;
-        /* display: flex; */
+    .container2 .shuffle-container  .shuffle-cont{
+        background-color: rgba(7, 128, 7, 0.3); width: 100%; border: none black; border-radius: 24px;  height: 41px; align-items: center; display: flex; justify-content: space-between; padding: 6px 4%; box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
     }
 
-    .section6 .ttle{
-        display: flex;
-        align-items: center;
-        color: white;
-    
+    .container2 .shuffle-container  .shuffle-cont p{
+        color: rgb(240, 238, 238); border: solid 2.3px rgba(255, 255, 255, 0.247); margin-top: 0px; padding: 2px 6px 2px 6px ; border-radius: 18px; background-color: rgba(4, 119, 4, 0.4); font-weight: bold; font-size: 15px; font-family: 'Poppins', sans-serif; 
     }
 
-    .section6 .title .ttle img{
-        height: 30px;
-        width: 30px;
-        margin-right: 13px;
+    .container2 .shuffle-container .shuffle-cont img{
+        width: 43px; height: 28px; border:  thin; padding: 0 4px 0 4px;  border-radius: 6px; background-color: rgba(4, 119, 4, 0.4); border: solid 2.3px rgba(255, 255, 255, 0.247);
     }
 
-    .section6 .title .ttle p{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 16px;
-        color: white;
-        font-weight: 600;
-                padding-bottom: 5%;
-
-        /* line-height:  ; */
-        /* display: inline-block; */
+    .cari{
+        display: block;
     }
-
-
-
 
     }   
 
