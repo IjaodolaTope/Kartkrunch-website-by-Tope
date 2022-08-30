@@ -388,11 +388,24 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     } */
 
+
+
+
     .cari{
         display: none;
     }
     
-    .scroll-prdt{
+    .section6{margin-top: 2% !important; border: ; padding: 0 0 !important; justify-content: center;border:  thin; height: 30vh; }
+
+    .section6 .product-holder-1{border:  thin; margin: 0 2%; height: 100%}
+
+    .section6 .product-holder-1 .top{height: 35px; border: ; background-color: rgba(7, 128, 7, 0.4); padding-left: 5%; justify-content: space-between; align-items: center; padding: 0% 5%; border-radius: 8px; display: flex; }
+
+    .section6 .product-holder-1 .top .span1{display: flex; border: ; align-items: center;} .section6 .product-holder-1 .top .span1 p{font-weight: 500;} .section6 .product-holder-1 .top .span1 img{height: 30px; width: 30px; margin-left: 10px; border:  thin; margin-top: -3px;}
+
+    .section6 .product-holder-1 .top .span2{display: flex;} .section6 .product-holder-1 .top .span2 p{} .section6 .product-holder-1 .top .span2 i{}  
+    
+    .middle{
         display: flex;
         overflow: auto;
         border: solid thin green; 
@@ -400,11 +413,11 @@ header .srch-dv .contact-itrc .sugg-search{
         padding-top: 3px;
     }
 
-    .scroll-prdt2{
+    .product-link{
         
     }
 
-    .scroll-prdt2 .scroll-prdt3{
+    .product-link .product-descrpt{
         height: 180px;
         width: 160px; 
         border: solid green thin; 
@@ -412,19 +425,19 @@ header .srch-dv .contact-itrc .sugg-search{
         border-radius: 10px;
     }
 
-    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-img{
+    .product-link .product-descrpt .product-img{
         margin: 3px auto 0px auto;
         width: 95%;
         /* border: solid thin; */
     }
 
-    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-img img{
+    .product-link .product-descrpt .product-img img{
         border-radius: 8px;
         height: 80px;
         width: 100%;
     }
-
-    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company{
+                /* PRODUCT COMPANY DESCRIPTION */
+    .product-link .product-descrpt .product-company{
         /* border: solid thin; */
         justify-content: space-between;
         display: flex;
@@ -432,34 +445,59 @@ header .srch-dv .contact-itrc .sugg-search{
         margin-left: 5px;
         margin-right: 5px;
     }
-
-    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-img{
+            /* COMPANY IMAGE */
+    .product-link .product-descrpt .product-company .product-company-img{
         /* margin: 0 3px 0 3px; */
     }
 
-    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-img img{
+    .product-link .product-descrpt .product-company .product-company-img img{
         height: 23px;
         width: 23px;
         /* border: solid thin; */
         border-radius: 3px;
     }
-
-    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-name{
+                /* COMPANY NAME */
+    .product-link .product-descrpt .product-company .product-company-name{
         margin-left: 5px;
         /* border: solid thin; */
     }
 
-    .scroll-prdt2 .scroll-prdt3 .scroll-prdt-company .scroll-prdt-company-name p{
+    .product-link .product-descrpt .product-company .product-company-name p{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         /* font-size: 17px; */
         color: black;
         font-weight: bold;
     }
 
+    /* COMPANY PRICE */
+    .product-link .product-descrpt .product-currency{
+        display: flex;
+        margin-right: 5px;
+        margin-left: 5px;
+        /* border: solid thin; */
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .product-link .product-descrpt .product-currency .product-offer{
+        color: white;
+        padding: 0.3px 5px;
+        /* border: solid thin; */
+        border-radius: 4px;
+        background-color: orangered;
+    }
 
+    .product-link .product-descrpt .product-currency .product-offer p{
+        font-size: 13px;
+        font-weight: 500;
+    }
 
-
+    .product-link .product-descrpt .product-currency .product-price{
+        margin-left: 2px;
+        font-size: 17px;
+        font-weight: 500;
+        color: black;
+    }
 
 
 
