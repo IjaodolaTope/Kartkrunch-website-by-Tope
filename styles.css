@@ -395,7 +395,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
     
-    .section6{margin-top: 2% !important; border: ; padding: 0 0 !important; justify-content: center;border:  thin; height: 30vh; }
+    .section6{margin-top: 2% !important; border: ; padding: 0 0 !important; justify-content: center;border:  thin; height: 30vh; box-shadow: none; }
 
     .section6 .product-holder-1{border:  thin; margin: 0 2%; height: 100%}
 
@@ -405,14 +405,14 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .section6 .product-holder-1 .top .span2{display: flex; align-items: center; margin-bottom: -1px;} .section6 .product-holder-1 .top .span2 p{} .section6 .product-holder-1 .top .span2 i{}  
     
+
     .middle{
         display: flex;
         overflow: auto;
-        border: solid thin green; 
-        height: 90%;
+        /* border: solid thin green;  */
+        height: 91%;
         padding-top: 3px;
     }
-
     .product-link{
         
     }
@@ -420,7 +420,8 @@ header .srch-dv .contact-itrc .sugg-search{
     .product-link .product-descrpt{
         height: 180px;
         width: 160px; 
-        border: solid green thin; 
+        /* border: solid green thin;  */
+        box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
         margin-left: 10px;
         border-radius: 10px;
     }
@@ -533,9 +534,9 @@ header .srch-dv .contact-itrc .sugg-search{
     .product-link .product-descrpt .product-currency .price-canceled{
         text-decoration-line: line-through;
         text-decoration-style: double;
-        margin-left: 4px;
+        margin-left: 2px;
         color: rgb(41, 41, 41);
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .product-link .product-descrpt .product-rating{
