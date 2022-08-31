@@ -3,7 +3,7 @@
 
 body{
     background-color: white;
-    /* background-color:  */
+    background-color: #f4f4f4 ;
 }
 
 *{
@@ -395,7 +395,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
     
-    .section6{margin-top: 6% !important; border: ; padding: 0 0 !important; justify-content: center;border:  thin; height: 30vh; box-shadow: none; }
+    .section6{margin-top: 6% !important; border: ; padding: 0 0 !important; justify-content: center;border:  thin; height: 240px; box-shadow: none; }
 
     .section6 .product-holder-1{border:  thin; margin: 0 2%; height: 100%}
 
@@ -410,7 +410,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: flex;
         overflow: auto;
         /* border: solid thin green;  */
-        height: 91%;
+        height: 95%;
         padding-top: 3px;
     }
     .product-link{
@@ -418,17 +418,18 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .product-link .product-descrpt{
-        height: 180px;
-        width: 160px; 
+        height: 200px;
+        width: 170px; 
         /* border: solid green thin;  */
-        box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin-right: 8px;
         border-radius: 10px;
     }
 
     .product-link .product-descrpt .product-img{
         margin: 3px auto 0px auto;
-        width: 95%;
+        padding-top: 7px;
+        width: 93%;
         /* border: solid thin; */
     }
 
@@ -439,6 +440,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
                 /* PRODUCT COMPANY DESCRIPTION */
     .product-link .product-descrpt .product-company{
+        margin-top: 5px;
         /* border: solid thin; */
         /* justify-content: space-between; */
         display: flex;
@@ -452,6 +454,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .product-link .product-descrpt .product-company .product-company-img img{
+        margin-left: 8px;
         height: 23px;
         width: 23px;
         /* border: solid thin; */
@@ -459,7 +462,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
                 /* COMPANY NAME */
     .product-link .product-descrpt .product-company .product-company-name{
-        margin-left: 5px;
+        margin-left: 8px;
         /* border: solid thin; */
     }
 
@@ -472,6 +475,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
     /* COMPANY PRICE */
     .product-link .product-descrpt .product-currency{
+        margin-top: 4px;
         display: flex;
         margin-right: 5px;
         margin-left: 5px;
@@ -544,7 +548,7 @@ header .srch-dv .contact-itrc .sugg-search{
         justify-content: space-between;
         display: flex;
         /* border: solid black; */
-        margin-top: 13px;
+        margin-top: 15px;
         padding: 0 5px;
     }
 
@@ -555,27 +559,29 @@ header .srch-dv .contact-itrc .sugg-search{
         padding-bottom: 2px;
         padding-left: 5px;
         padding-right: 5px;
-        border-radius: 8px;
+        border-radius: 5px;
         color: white;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 500;
-        background-color: lime;
+        background-color: limegreen;
     }
 
     .product-link .product-descrpt .product-rating .closed-text{
         border: solid;
-        padding-top: -2px;
+        padding-top: 2px;
         padding-bottom: 2px;
         padding-left: 5px;
         padding-right: 5px;
-        border-radius: 8px;
+        border-radius: 5px;
         color: white;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 500;
         background-color: red;
     }
 
-
+    .product-link .product-descrpt .product-rating .product-rating-itself{
+      color: rgb(61, 61, 61);
+    }
 
 
 
