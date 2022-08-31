@@ -258,7 +258,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
 
     .shuffle-span{
-        display: flex; margin: 13px 3.5%; justify-content: space-between; border: solid 2.3px rgba(255, 255, 255, 0.247);
+        display: flex; margin: 6px 3%; justify-content: space-between; border: solid 2.3px rgba(255, 255, 255, 0.247);
     }
 
     .shuffle-span .shuffle-cont{
@@ -395,9 +395,9 @@ header .srch-dv .contact-itrc .sugg-search{
         display: none;
     }
     
-    .section6{margin-top: 2% !important; border: ; padding: 0 0 !important; justify-content: center;border:  thin; height: 30vh; box-shadow: none; }
+    .section6{margin-top: 5% !important; border: ; padding: 0 0 !important; justify-content: center;border:  thin; height: 32vh; box-shadow: none; }
 
-    .section6 .product-holder-1{border:  thin; margin: 0 2%; height: 100%}
+    .section6 .product-holder-1{border:  thin; margin: 0 2.5%; height: 100%}
 
     .section6 .product-holder-1 .top{height: 35px; border: ; background-color: rgba(7, 128, 7, 0.4); padding-left: 5%; justify-content: space-between; align-items: center; padding: 0% 5%; border-radius: 8px; display: flex; }
 
@@ -418,8 +418,8 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .product-link .product-descrpt{
-        height: 180px;
-        width: 160px; 
+        height: 190px;
+        width: 170px; 
         /* border: solid green thin;  */
         box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
         margin-left: 10px;
@@ -439,12 +439,12 @@ header .srch-dv .contact-itrc .sugg-search{
     }
                 /* PRODUCT COMPANY DESCRIPTION */
     .product-link .product-descrpt .product-company{
-        /* border: solid thin; */
         /* justify-content: space-between; */
         display: flex;
-        height: 25px;
+        height: 26px;
         margin-left: 5px;
         margin-right: 5px;
+        /* align-items: center; */
     }
             /* COMPANY IMAGE */
     .product-link .product-descrpt .product-company .product-company-img{
@@ -459,6 +459,7 @@ header .srch-dv .contact-itrc .sugg-search{
     }
                 /* COMPANY NAME */
     .product-link .product-descrpt .product-company .product-company-name{
+        align-items: center;
         margin-left: 5px;
         /* border: solid thin; */
     }
@@ -475,6 +476,7 @@ header .srch-dv .contact-itrc .sugg-search{
         display: flex;
         margin-right: 5px;
         margin-left: 5px;
+        margin-top: 3px;
         /* border: solid thin; */
         align-items: center;
         /* justify-content: space-between; */
@@ -494,7 +496,7 @@ header .srch-dv .contact-itrc .sugg-search{
 
     .product-link .product-descrpt .product-currency .product-offer{
         position: relative;
-        margin-left: -44.8px;
+        margin-left: -38px;
         bottom: 100px;
         right: 60px;
         color: white;
@@ -540,8 +542,8 @@ header .srch-dv .contact-itrc .sugg-search{
     }
 
     .product-link .product-descrpt .product-rating{
-        /* border: solid black; */
-        margin-top: 13px;
+        border: solid black;
+        margin-top: 14px;
         padding: 0 5px;
     }
 
